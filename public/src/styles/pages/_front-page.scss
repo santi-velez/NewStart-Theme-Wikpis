@@ -1,0 +1,158 @@
+/* Estilos generales para el blog */
+.front-page {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Banner */
+.banner {
+    width: 1442px; /* Ajustado a tus especificaciones */
+    height: 500px; /* Ajustado a tus especificaciones */
+    gap: 0px; /* Ajustado a tus especificaciones */
+    opacity: 1; /* Ajustado a tus especificaciones */
+    background-size: cover;
+    position: relative;
+    margin: 0 auto; /* Centrar el banner */
+}
+
+.banner-content {
+    position: absolute;
+    bottom: 30px; /* Ajustado un poco más arriba */
+    left: 40px; /* Alineado más a la derecha */
+    color: white;
+    font-size: 24px; /* Tamaño reducido para el h1 */
+    text-align: left; /* Asegurar alineación a la izquierda */
+}
+
+.banner-content h1 {
+    margin: 0; /* Eliminar margen del h1 */
+    font-size: 24px; /* Tamaño más pequeño */
+    color: white; /* Color blanco para el h1 */
+}
+
+.blog-intro {
+    background-color: #f0f0f0; /* Fondo gris claro */
+    margin: 0 auto;
+    padding: 20px;
+    width: 1442px; /* Ancho ajustado al del banner */
+    text-align: center; /* Centrando el contenido */
+}
+
+.blog-intro h2 {
+    margin: 0 0 10px;
+    font-size: 32px; /* Tamaño del título "Nuestro Blog" */
+    font-weight: 400; /* Peso de la fuente */
+    line-height: 36px; /* Altura de línea */
+    text-align: center; /* Alineación centrada */
+    color: #2E3C80; /* Color azul */
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    width: 1442px; /* Ancho ajustado al del banner */
+}
+
+.search-container input {
+    background-color: white;
+    width: 600px;
+    height: 60px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-button {
+    height: 60px;
+    color: #0073aa; /* Texto azul */
+    border: 1px solid #0073aa; /* Borde azul */
+    padding: 0 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.categories button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: transparent; /* Botones transparentes */
+    color: #0073aa; /* Texto azul */
+    border: 1px solid #0073aa; /* Borde azul */
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Estilo para la sección de publicaciones */
+.posts {
+    width: 1249px;
+    height: 1295px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.post {
+    width: 590px;
+    height: 618px;
+    border: 1px solid #2E3C80;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.post-image {
+    width: 580px; /* Ajustar según el diseño */
+    height: 370px; /* Ajustar según el diseño */
+}
+
+.post-info {
+    text-align: left;
+}
+
+/* Título del blog */
+.front-page h1 {
+    font-family: 'Poppins', sans-serif; /* Aplicar Poppins solo al título del blog */
+    font-size: 32px; /* Tamaño del título del blog */
+    font-weight: 400; /* Peso de la fuente */
+    color: white; /* Color blanco para el h1 */
+    text-decoration: none; /* Sin subrayado */
+}
+
+/* Títulos de los artículos */
+.front-page .post-title {
+    color: #2E3C80; /* Color azul */
+    font-size: 20px; /* Tamaño del título de los artículos */
+    font-weight: 400; /* Peso de la fuente */
+    text-align: center; /* Alineación centrada */
+    text-decoration: none; /* Sin subrayado */
+}
+
+/* Estilo para la fecha de los artículos */
+.front-page .post-date {
+    font-size: 18px; /* Tamaño de la fecha */
+    font-weight: 400; /* Peso de la fuente */
+    color: #727171; /* Color gris */
+    background-color: #ffffff; /* Fondo blanco */
+    text-align: center; /* Alineación centrada */
+}
+
+/* Botón Leer más */
+.read-more {
+    align-self: flex-start;
+    background-color: transparent; /* Botón transparente */
+    color: #0073aa; /* Texto azul */
+    border: 1px solid #0073aa; /* Borde azul */
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    text-align: center; /* Alinear texto al centro */
+}
